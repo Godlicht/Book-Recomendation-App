@@ -19,5 +19,5 @@ The app stores your read books locally in a SQLite database. It analyzes the aut
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/book-recommendation-app.git
+   git clone https://github.com/godlicht/book-recommendation-app.git
    cd book-recommendation-app
