@@ -1,23 +1,36 @@
-# Book Recommendation System
+<h1>Book Recommendation App</h1>
 
-A simple **Python** desktop application with a graphical user interface built using **Tkinter**. This app allows users to manage a personal list of read books and get English-language book recommendations based on their reading preferences.
+This is a simple desktop application built with Python and Tkinter.  
+It allows you to:
 
-## Features
+- Add books with title, author, and category
+- Edit and delete books from your personal reading list
+- Filter and sort your book list
+- Get book recommendations based on your favorite authors and categories using the Google Books API (English books only)
+- Store all data locally using SQLite database
 
-- **Add books** with title, author, and category.
-- **Edit and delete** existing books from your reading list.
-- **Filter and sort** your book list by title, author, or category.
-- **Recommend new books** based on your favorite authors and categories using the Google Books API (only English books).
-- Data persistence with a lightweight **SQLite** database.
-- Clean and user-friendly interface designed for easy navigation.
+---
 
-## How it works
+<h2>Requirements</h2>
+<ul>
+<li>Python 3.x</li> 
+</ul>
 
-The app stores your read books locally in a SQLite database. It analyzes the authors and categories you read most often, then fetches book recommendations from the Google Books API restricted to English-language books.
+---
 
-## Installation
+<h2>Used Python Libraries</h2>
+<ul>
+   <li>tkinter</li>
+   <li>sqlite3</li>
+   <li>requests</li>
+</ul>   
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/godlicht/book-recommendation-app.git
-   cd book-recommendation-app
+---
+
+<h2>How to Run</h2>
+
+```bash
+git clone https://github.com/yourusername/book-recommendation-app.git
+cd book-recommendation-app
+pip install requests
+python BookRecommendation.py
