@@ -30,7 +30,7 @@ It allows you to:
 <h2>How to Run</h2>
 
 ```bash
-git clone https://github.com/yourusername/book-recommendation-app.git
+git clone https://github.com/godlicht/book-recommendation-app.git
 cd book-recommendation-app
 pip install requests
 python BookRecommendation.py
